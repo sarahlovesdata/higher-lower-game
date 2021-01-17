@@ -59,7 +59,7 @@ def game():
       clear()
       print(logo)
       
-      #Give user feedback based on their answer (true = correct or false = incorrect). When incorrect, game ends and we print their final score
+      #Give user feedback based on their answer (true = correct or false = incorrect). When incorrect, game ends and we print their final scorer
       if is_correct:
         score += 1
         print(f"You're right. Current score: {score}.")
